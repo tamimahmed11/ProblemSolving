@@ -1,1 +1,0 @@
-{"name":"Local: equlal","url":"e:\\Operating_System\\equlal.cpp","tests":[{"id":1729099841351,"input":"3\n1 2 3 4\n1 2 1 2\n1 2 4 8","output":"Not Equal\nEqual"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Operating_System\\equlal.cpp","group":"local","local":true}

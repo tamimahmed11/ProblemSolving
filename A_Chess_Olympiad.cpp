@@ -1,23 +1,19 @@
-#include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
-
-int main() {
-    int X, Y, Z;
-    cin >> X >> Y >> Z;
-
-    // Calculate the points for the team and the opponent
-    double team_points = X + 0.5 * Y;
-    double opponent_points = Z + 0.5 * Y;
-
-    // Calculate the remaining games
-    int remaining_games = 4 - (X + Y + Z);
-
-    // Check if the team can surpass the opponent's score by winning all remaining games
-    if (team_points + remaining_games > opponent_points) {
-        cout << "YES" << endl;
-    } else {
-        cout << "NO" << endl;
+int main()
+{
+    int x,y,z;
+    cin>>x>>y>>z;
+    double t1=x+0.5*y;
+    double t2=(4-x-y-z)+0.5*y;
+    if (t1>t2)
+    {
+        cout<<"YES";
     }
-
+    else
+    {
+        cout<<"NO";
+        
+    }
     return 0;
 }

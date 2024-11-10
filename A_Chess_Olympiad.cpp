@@ -8,11 +8,11 @@ int main()
     double t2=(4-x-y-z)+0.5*y;
     if (t1>t2)
     {
-        cout<<"YES";
+        cout<<"Yes";
     }
     else
     {
-        cout<<"NO";
+        cout<<"No";
 
     }
     return 0;

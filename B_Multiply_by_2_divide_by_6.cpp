@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-
-int tamim(int n) {
+int tamim(int n) 
+{
     int cnt = 0;
     
     while (n > 1) 
@@ -22,7 +22,6 @@ int tamim(int n) {
     }
     return cnt;
 }
-
 int main() 
 {
     int test;

@@ -1,3 +1,4 @@
+//https://vjudge.net/contest/671238#problem/A
 #include<bits/stdc++.h>
 using namespace std;
 int main()
@@ -13,4 +14,5 @@ int main()
     {
         cout<<"NO"<<endl;
     }
+    return 0;
 }

@@ -4,7 +4,7 @@ int main()
 {
     int n;
     cin>>n;
-    long long y=static_cast<long long>(sqrt(n));
+    double y=static_cast<double >(sqrt(n));
     if(y*y==n)
     {
         cout<<"YES"<<endl;

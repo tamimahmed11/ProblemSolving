@@ -18,7 +18,7 @@ int main()
    int l = 0, r = 0, cnt = 0;
    while (r < m) 
    {
-      if (l < n && v1[l] <v2[r]) 
+      if (l < n && v1[l]<v2[r]) 
       {
          cnt++,l++;
       }

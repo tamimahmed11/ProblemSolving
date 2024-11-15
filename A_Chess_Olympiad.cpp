@@ -2,11 +2,11 @@
 using namespace std;
 int main()
 {
-    int x,y,z;
+    double x,y,z;
     cin>>x>>y>>z;
-    double t1=x+0.5*y;
-    double t2=(4-x-y-z)+0.5*y;
-    if (t1>t2)
+    double t1=z;
+    double t2=(4-x-y-z)+x;
+    if (t1<t2)
     {
         cout<<"Yes";
     }

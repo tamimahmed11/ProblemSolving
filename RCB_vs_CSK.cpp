@@ -13,4 +13,5 @@ int main()
     {
         cout<<"CSK"<<endl;
     }
+    return 0;
 }

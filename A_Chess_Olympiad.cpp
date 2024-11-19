@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-    double x,y,z;
+    int x,y,z;
     cin>>x>>y>>z;
-    double t1=z;
-    double t2=(4-x-y-z)+x;
+    int t1=z;
+    int t2=(4-x-y-z)+x;
     if (t1<t2)
     {
         cout<<"Yes";

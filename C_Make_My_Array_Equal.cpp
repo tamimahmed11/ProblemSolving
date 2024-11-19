@@ -1,3 +1,4 @@
+// https://vjudge.net/contest/670883#problem/C
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long int

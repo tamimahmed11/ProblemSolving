@@ -16,9 +16,9 @@ int main()
             m1[v[i]]++;
         }
         int ans = 0;
-        for (const auto& pair :m1) 
+        for (const auto& pair:m1) 
         {
-            ans=ans+ pair.second / 2; 
+            ans=ans+pair.second / 2; 
         }
         cout <<ans<< endl;
     }

@@ -1,3 +1,4 @@
+// https://codeforces.com/problemset/problem/1374/A
 #include<bits/stdc++.h> 
 using namespace std;
 int main ()
@@ -14,6 +15,8 @@ int main ()
             ans=ans-a;
         }
         cout<<ans<<endl;
+        int n;
+
     }
     return 0;
 }
